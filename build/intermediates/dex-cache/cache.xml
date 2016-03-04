@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Eesh/Documents/Projects/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-584bd5e8324536f27669fd8fa9107678442a61ef.jar" />
+    </item>
+    <item
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/classes-eae57d8a1d012d513e062aa769eac8fb55ced6c5.jar" />
+    </item>
+    <item
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/classes-b6814df14b82b9818fbf15b2e8b3239f5f80a5c3.jar" />
+    </item>
+    <item
+        jar="/Users/Eesh/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0-542eac589302a4006a0d19d3184c8bf54d0411ec.jar" />
+    </item>
+    <item
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-0908c82ddba5c828d58bbd9b91e4861bb0617d43.jar" />
+    </item>
+    <item
+        jar="/Users/Eesh/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/library-1.0.19-27d1e13c3832fd422b88b6550b4d6181b3eac71d.jar" />
+    </item>
+
+</items>

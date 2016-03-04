@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Family Health Card</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add">add</string>
+    <string name="title_activity_create_family">create_family</string>
+    <string name="title_activity_update_details">update_details</string>
+
+        <string-array name="hof_array">
+            <item>Son</item>
+            <item>Daughter</item>
+            <item>Brother</item>
+            <item>Sister</item>
+
+        </string-array>
+    <string name="title_activity_create_family_2">create_family_2</string>
+    <string name="title_activity_search_family">search_family</string>
+
+</resources>
