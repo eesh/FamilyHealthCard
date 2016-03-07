@@ -2,25 +2,39 @@
 <items version="2" >
 
     <item
-        jar="/Users/Eesh/Documents/Projects/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-584bd5e8324536f27669fd8fa9107678442a61ef.jar" />
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/classes-38d718eb3435793718eb462ab9a715d4410f1985.jar" />
     </item>
     <item
-        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/classes-eae57d8a1d012d513e062aa769eac8fb55ced6c5.jar" />
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/classes-8f34fde890307fc9facb238ac507c365cbe96c9d.jar" />
     </item>
     <item
-        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jar="/Users/Eesh/Documents/Projects/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
         jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/classes-b6814df14b82b9818fbf15b2e8b3239f5f80a5c3.jar" />
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0-454e9bf335437a2b14a557415954ecc2bd51f428.jar" />
+    </item>
+    <item
+        jar="/Users/Eesh/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/library-1.0.19-27d1e13c3832fd422b88b6550b4d6181b3eac71d.jar" />
+    </item>
+    <item
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/classes-86bdc8053da8a391a3b88ace926018595812befd.jar" />
     </item>
     <item
         jar="/Users/Eesh/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
@@ -30,11 +44,25 @@
         <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0-542eac589302a4006a0d19d3184c8bf54d0411ec.jar" />
     </item>
     <item
-        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
         jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-0908c82ddba5c828d58bbd9b91e4861bb0617d43.jar" />
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0-f83ea0be5a2b06c45d5b3db288efb8477f753867.jar" />
+    </item>
+    <item
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/classes-e2b0fa4ce169e8db14cc7861db19901c151418e3.jar" />
+    </item>
+    <item
+        jar="/Users/Eesh/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0-542eac589302a4006a0d19d3184c8bf54d0411ec.jar" />
     </item>
     <item
         jar="/Users/Eesh/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
