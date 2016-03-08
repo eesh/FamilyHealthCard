@@ -11,6 +11,16 @@ public class DataModels {
 
     private ArrayList<Patient> patientsList = null;
 
+    public Family getFamily() {
+        return family;
+    }
+
+    public void setFamily(JSONObject object) {
+        this.family = new Family(object);
+    }
+
+    private Family family = null;
+
     public static DataModels getInstance() {
         if(instance == null) {
             instance = new DataModels();
@@ -25,6 +35,7 @@ public class DataModels {
 
     public void clear() {
         patientsList.clear();
+        family = null;
     }
 
     public ArrayList<Patient> getPatientsList() {

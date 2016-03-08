@@ -220,6 +220,7 @@ public class DataSend {
                 try {
                     object = new JSONObject(response);
                     familyDetails = object.getJSONObject("familyDetails");
+                    model.setFamily(familyDetails);
                     members = object.getJSONArray("members");
                     for(int i=0; i < members.length(); i++) {
                         member = members.getJSONObject(i);
@@ -237,8 +238,8 @@ public class DataSend {
             }
         }) {
             @Override
-            protected Map<String, String> getParams() throws AuthFailureError {
-                Map map = new HashMap();
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                Map<String,String > map = new HashMap<>();
                 map.put("Authorization",getAuthDetails());
                 return map;
             }
@@ -248,7 +249,6 @@ public class DataSend {
     private String getAuthDetails() {
         String credentials = "";
         SharedPreferences pref = appContext.getSharedPreferences(loginActivity.PREFS_NAME, loginActivity.MODE_PRIVATE);
-        String auth = pref.getString("auth", null);
-        return auth;
+        return pref.getString("auth", null);
     }
 }
