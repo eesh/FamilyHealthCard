@@ -362,6 +362,7 @@
             android:layout_height="wrap_content"
             android:text="General Details"
             android:id="@+id/next"
+
             android:layout_gravity="center_horizontal" />
 
 
