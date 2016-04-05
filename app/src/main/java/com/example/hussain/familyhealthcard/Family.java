@@ -11,7 +11,8 @@ public class Family {
     String kitchen, pets, domesticAnimals, media, electricSupply;
     
     int grossIncome, perCapitaIncome, noOfPeople, livingSpace, distanceFromHouse;
-    
+
+    //test
     
     public Family(JSONObject object) {
         try {
