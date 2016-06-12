@@ -11,6 +11,11 @@ public class DataModels {
 
     private ArrayList<Patient> patientsList = null;
 
+    private Family family = null;
+
+
+
+
     public Family getFamily() {
         return family;
     }
@@ -18,8 +23,6 @@ public class DataModels {
     public void setFamily(JSONObject object) {
         this.family = new Family(object);
     }
-
-    private Family family = null;
 
     public static DataModels getInstance() {
         if(instance == null) {
@@ -34,11 +37,23 @@ public class DataModels {
     }
 
     public void clear() {
-        patientsList.clear();
+        if(patientsList != null) {
+            patientsList.clear();
+        }
         family = null;
     }
 
     public ArrayList<Patient> getPatientsList() {
         return patientsList;
+    }
+
+    public Patient getPatientFromID(int patientid) {
+
+        for(Patient p:patientsList) {
+            if(p.patientID == patientid) {
+                return p;
+            }
+        }
+        return null;
     }
 }

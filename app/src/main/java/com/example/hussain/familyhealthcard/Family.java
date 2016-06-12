@@ -6,30 +6,34 @@ import org.json.JSONObject;
 
 public class Family {
     
-    String familyID, waterSource, familyType,socialEconomicStatus,eligibleCouples,familyPlanning, planningReasons;
+    String waterSource, familyType,socialEconomicStatus,eligibleCouples,familyPlanning, planningReasons;
     String house, typeOfHouse, vehicle, latrineFacility, solidWasteDisposal, sullageDisposal, spaceAroundHouse;
     String kitchen, pets, domesticAnimals, media, electricSupply;
     
-    int grossIncome, perCapitaIncome, noOfPeople, livingSpace, distanceFromHouse;
-
-    //test
+    int familyID, grossIncome, perCapitaIncome, noOfPeople, livingSpace, distanceFromHouse, area, place, street, houseno;
+    
     
     public Family(JSONObject object) {
         try {
-            familyID = object.getString("familyID");
+
+            familyID = Integer.parseInt(object.getString("familyID"));
+            area = Integer.parseInt(object.getString("place"));
+            place = Integer.parseInt(object.getString("area"));
+            street = Integer.parseInt(object.getString("street"));
+            houseno = Integer.parseInt(object.getString("hno"));
             familyType = object.getString("familyType");
-            grossIncome = object.getInt("grossIncome");
-            perCapitaIncome = object.getInt("perCapitaIncome");
+            grossIncome = Integer.parseInt(object.getString("grossIncome"));
+            perCapitaIncome = Integer.parseInt(object.getString("perCapitaIncome"));
             socialEconomicStatus = object.getString("socialEconomicStatus");
             eligibleCouples = object.getString("eligibleCouples");
             familyPlanning = object.getString("familyPlanning");
             planningReasons = object.getString("planningReasons");
             house = object.getString("house");
             typeOfHouse = object.getString("typeOfHouse");
-            livingSpace = object.getInt("livingSpace");
-            noOfPeople = object.getInt("noOfPeople");
+            livingSpace = Integer.parseInt(object.getString("livingSpace"));
+            noOfPeople = Integer.parseInt(object.getString("noOfPeople"));
             waterSource = object.getString("waterSource");
-            distanceFromHouse = object.getInt("distanceFromHouse");
+            distanceFromHouse = Integer.parseInt(object.getString("distanceFromHouse"));
             latrineFacility = object.getString("latrineFacility");
             solidWasteDisposal = object.getString("solidWasteDisposal");
             sullageDisposal = object.getString("sullageDisposal");

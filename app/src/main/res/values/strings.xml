@@ -6,7 +6,10 @@
     <string name="title_activity_add">add</string>
     <string name="title_activity_create_family">create_family</string>
     <string name="title_activity_update_details">update_details</string>
-
+    <string name="splash_text1">Developed by</string>
+    <string name="splash_text2">Department of Software Engineering</string>
+    <string name="splash_text3">in collaboration with </string>
+    <string name="splash_text4">Department of Community Medicine</string>
         <string-array name="hof_array">
             <item>Son</item>
             <item>Daughter</item>
@@ -16,5 +19,9 @@
         </string-array>
     <string name="title_activity_create_family_2">create_family_2</string>
     <string name="title_activity_search_family">search_family</string>
+    <string name="title_activity_add_consult">add_consult</string>
+    <string name="title_activity_but">but</string>
+    <string name="title_activity_about_us">about_us</string>
+    <string name="title_activity_view_consult">view_consult</string>
 
 </resources>

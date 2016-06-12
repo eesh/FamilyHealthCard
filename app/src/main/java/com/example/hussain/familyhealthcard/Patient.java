@@ -3,18 +3,34 @@ package com.example.hussain.familyhealthcard;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
+
 
 public class Patient {
 
 
-    public int age, income, houseID;
+    public int age, income, uniqueID, patientID;
     public String name, sex,religion, occupation, education, martialStatus, memberType;
+    ArrayList<Consultation> consultations = null;
+
+
+
+    public ArrayList<Consultation> getConsultations() {
+        return consultations;
+    }
+
+    Patient(boolean spinner) {
+        if(spinner) name = "Select Patient";
+        else name = "No Patients";
+    }
 
     Patient(JSONObject object) {
         try {
+
+            patientID = Integer.parseInt(object.getString("patientID"));
             age = Integer.parseInt(object.getString("age"));
             income = Integer.parseInt(object.getString("income"));
-            houseID = Integer.parseInt(object.getString("houseID"));
+            uniqueID = Integer.parseInt(object.getString("houseID"));
             name = object.getString("name");
             sex = object.getString("sex");
             religion = object.getString("religion");
@@ -27,7 +43,14 @@ public class Patient {
         }
     }
 
-    //test
+    public boolean isMarried() {
+        return martialStatus.equalsIgnoreCase("Married");
+    }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 
     public int getAge() {
         return age;
@@ -45,12 +68,12 @@ public class Patient {
         this.income = income;
     }
 
-    public int getHouseID() {
-        return houseID;
+    public int getUniqueID() {
+        return uniqueID;
     }
 
-    public void setHouseID(int houseID) {
-        this.houseID = houseID;
+    public void setUniqueID(int houseID) {
+        this.uniqueID = houseID;
     }
 
     public String getName() {
@@ -107,5 +130,13 @@ public class Patient {
 
     public void setMemberType(String memberType) {
         this.memberType = memberType;
+    }
+
+    public void addConsultation(Consultation consultation) {
+
+        if(consultations == null) {
+            consultations = new ArrayList<Consultation>();
+        }
+        consultations.add(consultation);
     }
 }

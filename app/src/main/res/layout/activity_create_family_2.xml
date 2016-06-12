@@ -6,6 +6,7 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#FFFFFF"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity"
     android:id="@+id/create_family">
@@ -20,13 +21,15 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="visible">
 
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="visible">
 
             <TextView
                 android:layout_width="match_parent"
@@ -34,7 +37,8 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Unique ID:"
                 android:id="@+id/textView"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:visibility="visible" />
             </LinearLayout>
             <Space
                 android:layout_width="match_parent"
@@ -44,7 +48,8 @@
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:visibility="visible">
 
                 <Space
                     android:layout_width="wrap_content"
@@ -58,7 +63,8 @@
                     android:ems="10"
                     android:id="@+id/editText11"
                     android:layout_weight="1"
-                    android:hint="Place" />
+                    android:hint="Place"
+                    android:visibility="visible" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -72,7 +78,8 @@
                     android:ems="10"
                     android:id="@+id/editText12"
                     android:layout_weight="1"
-                    android:hint="Area" />
+                    android:hint="Area"
+                    android:visibility="visible" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -87,7 +94,8 @@
                     android:id="@+id/editText7"
                     android:layout_weight="1"
                     android:hint="Street No"
-                    android:textSize="15dp" />
+                    android:textSize="15dp"
+                    android:visibility="visible" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -102,7 +110,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:visibility="visible">
 
             <Space
                 android:layout_width="wrap_content"
@@ -116,7 +125,8 @@
                 android:ems="10"
                 android:id="@+id/editText8"
                 android:layout_weight="1"
-                android:hint="House No" />
+                android:hint="House No"
+                android:visibility="visible" />
 
             <Space
                 android:layout_width="wrap_content"
@@ -133,7 +143,7 @@
                 android:textColor="#000000" />
 
             <RadioGroup
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/myRadioGroup">
 
@@ -255,7 +265,7 @@
                     android:layout_height="wrap_content"
                     android:text="Own"
                     android:layout_weight="1"
-                    android:id="@+id/radioButton25"/>
+                    android:id="@+id/radioButton5"/>
 
             </RadioGroup>
 

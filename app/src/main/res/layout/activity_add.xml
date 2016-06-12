@@ -7,6 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#FFFFFF"
     tools:context=".MainActivity"
     android:id="@+id/add">
 
@@ -19,7 +20,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Create Family"
+        android:text="Add Family Details"
         android:layout_weight="0.01"
         android:id="@+id/create_family"
         android:layout_above="@+id/update_details"
@@ -49,12 +50,38 @@
         android:drawableLeft="@drawable/ic_action_update"
         android:layout_gravity="center_horizontal"
         android:textAlignment="center" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.50"
+        android:layout_gravity="center_horizontal" />
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.50"
         android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:layout_weight="0.01"
+        android:id="@+id/about"
+        android:drawableLeft="@drawable/and"
+        android:textAlignment="center" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
 
     <Button
         android:layout_width="match_parent"

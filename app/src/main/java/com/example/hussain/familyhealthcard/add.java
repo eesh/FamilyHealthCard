@@ -2,9 +2,8 @@ package com.example.hussain.familyhealthcard;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -12,7 +11,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 
 
-public class add extends ActionBarActivity {
+public class add extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,12 +34,7 @@ public class add extends ActionBarActivity {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
 
 
         return super.onOptionsItemSelected(item);
@@ -51,37 +45,59 @@ public class add extends ActionBarActivity {
         Button createfamily = (Button)findViewById(R.id.create_family);
         Button updatedetails = (Button)findViewById(R.id.update_details);
         Button logout = (Button)findViewById(R.id.logout);
+        Button aboutUs=(Button)findViewById(R.id.about);
 
-        createfamily.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Intent intent = new Intent(add.this, create_family_2.class);
-                        startActivity(intent);
-                    }
-                });
-        updatedetails.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Intent intent = new Intent(add.this, create_family.class);
-                        startActivity(intent);
-                    }
-                });
-        logout.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        SharedPreferences sharedPrefs =getSharedPreferences(loginActivity.PREFS_NAME,MODE_PRIVATE);
-                        SharedPreferences.Editor editor = sharedPrefs.edit();
-                        editor.clear();
-                        editor.commit();
-                        //show login form
-                        Intent intent=new Intent(add.this, loginActivity.class);
-                        startActivity(intent);
-                        finish();
-                    }
-                });
+        if (createfamily != null) {
+            createfamily.setOnClickListener(
+                    new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Intent intent = new Intent(add.this, create_family_2.class);
+                            startActivity(intent);
+                        }
+                    });
+        }
+        if (updatedetails != null) {
+            updatedetails.setOnClickListener(
+                    new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+
+                            DataModels.getInstance().clear();
+                            Intent intent = new Intent(add.this, search_family.class);
+                            startActivity(intent);
+
+                        }
+                    });
+        }
+        if (logout != null) {
+            logout.setOnClickListener(
+                    new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            SharedPreferences sharedPrefs =getSharedPreferences(loginActivity.PREFS_NAME,MODE_PRIVATE);
+                            SharedPreferences.Editor editor = sharedPrefs.edit();
+                            editor.clear();
+                            editor.commit();
+                            //show login form
+                            Intent intent=new Intent(add.this, loginActivity.class);
+                            startActivity(intent);
+                            finish();
+                        }
+                    });
+            if (aboutUs!= null) {
+                aboutUs.setOnClickListener(
+                        new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+
+                                Intent intent = new Intent(add.this, about_us.class);
+                                startActivity(intent);
+                            }
+                        });
+            }
+
+        }
 
     }
 

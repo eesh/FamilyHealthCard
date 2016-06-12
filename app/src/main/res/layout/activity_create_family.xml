@@ -8,369 +8,414 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity"
-    android:id="@+id/create_family">
-<ScrollView
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content">
-
-    <LinearLayout
+    android:background="#FFFFFF"
+    android:id="@+id/create_family"
+    android:visibility="visible">
+    <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:visibility="visible">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Unique ID:"
-        android:id="@+id/textView"
-        android:textColor="#000000" />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="7dp"
-        android:layout_gravity="center_horizontal" />
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
-
-        <EditText
-            android:layout_width="75dp"
+        <LinearLayout
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
-            android:id="@+id/editText5"
-            android:layout_weight="1"
-            android:hint="Place" />
+            android:orientation="vertical">
 
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
-
-        <EditText
-            android:layout_width="75dp"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
-            android:id="@+id/editText6"
-            android:layout_weight="1"
-            android:hint="Area" />
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
-
-        <EditText
-            android:layout_width="75dp"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
-            android:id="@+id/editText7"
-            android:layout_weight="1"
-            android:hint="Street No"
-            android:textSize="15dp" />
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
-    </LinearLayout>
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="7dp"
-        android:layout_gravity="center_horizontal" />
-
-    <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Unique ID:"
+                android:id="@+id/textView"
+                android:textColor="#000000" />
 
             <Space
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"/>
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <EditText
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/editText5"
+                    android:layout_weight="1"
+                    android:hint="Place"
+                    android:visibility="gone" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/editText6"
+                    android:layout_weight="1"
+                    android:hint="Area"
+                    android:visibility="gone" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/editText7"
+                    android:layout_weight="1"
+                    android:hint="Street No"
+                    android:textSize="15dp"
+                    android:visibility="gone" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/editText8"
+                    android:layout_weight="1"
+                    android:hint="House No"
+                    android:visibility="gone" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/editText3"
+                    android:layout_weight="1"
+                    android:hint="Person" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Name:"
+                android:id="@+id/textView2"
+                android:textColor="#000000" />
 
             <EditText
-            android:layout_width="75dp"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
-            android:id="@+id/editText8"
-                android:layout_weight="1"
-                android:hint="House No" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editText4" />
 
             <Space
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"/>
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Age:"
+                android:id="@+id/textView3"
+                android:textColor="#000000" />
 
             <EditText
-            android:layout_width="75dp"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
-            android:id="@+id/editText3"
-                android:layout_weight="1"
-                android:hint="Person" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editText9" />
 
             <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sex:"
+                android:id="@+id/textView4"
+                android:textColor="#000000"
+                android:textSize="22dp" />
+
+            <RadioGroup
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"/>
+                android:layout_height="wrap_content"
+                android:id="@+id/myRadioGroup">
+
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:id="@+id/radioButton"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:layout_weight="1"
+                    android:id="@+id/radioButton2"/>
+
+            </RadioGroup>
+
+
+            <Space
+                android:layout_height="7dp"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Relationship to Head of Family:"
+                android:id="@+id/textView5"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner"
+                android:layout_gravity="center_horizontal" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Maritial Status"
+                android:id="@+id/textView6"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/myRadioGroup2">
+
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Married"
+                    android:id="@+id/radioButton3"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Single"
+                    android:layout_weight="1"
+                    android:id="@+id/radioButton4"/>
+
+            </RadioGroup>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_gravity="center_horizontal" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Education:"
+                android:id="@+id/textView7"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner2"
+                android:layout_gravity="center_horizontal" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_gravity="center_horizontal" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Occupation:"
+                android:id="@+id/textView8"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/editText10" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Religion:"
+                android:id="@+id/textView9"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/editText11" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Income:"
+                android:id="@+id/textView10"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editText12" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_gravity="center_horizontal" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit Details"
+                android:id="@+id/add_family"
+                android:drawableLeft="@drawable/ic_action_send"
+                android:layout_gravity="center_horizontal" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_gravity="center_horizontal" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:drawableLeft="@drawable/ic_action_back"
+                android:id="@+id/next"
+
+                android:layout_gravity="center_horizontal"
+                android:visibility="visible" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Consultation"
+                android:id="@+id/button2"
+                android:layout_gravity="center_horizontal"
+                android:drawableLeft="@drawable/ic_action_name3" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_gravity="center_horizontal" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Consultation"
+                android:id="@+id/button3"
+                android:layout_gravity="center_horizontal"
+                android:drawableLeft="@drawable/ic_action_view"
+                android:visibility="visible" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_gravity="center_horizontal" />
 
 
         </LinearLayout>
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="7dp"
-        android:layout_gravity="center_horizontal" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Name:"
-        android:id="@+id/textView2"
-        android:textColor="#000000" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/editText4" />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="7dp"
-        android:layout_gravity="center_horizontal" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Age:"
-        android:id="@+id/textView3"
-        android:textColor="#000000" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:ems="10"
-        android:id="@+id/editText9" />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="7dp"
-        android:layout_gravity="center_horizontal" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Sex:"
-        android:id="@+id/textView4"
-        android:textColor="#000000"
-        android:textSize="22dp" />
-
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/myRadioGroup">
-
-
-
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Male"
-            android:id="@+id/radioButton"
-            android:layout_weight="1"/>
-
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Female"
-            android:layout_weight="1"
-            android:id="@+id/radioButton2"/>
-
-    </RadioGroup>
-
-
-        <Space
-            android:layout_height="7dp"
-            android:layout_width="match_parent"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="3"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Relationship to Head of Family:"
-            android:id="@+id/textView5"
-            android:textColor="#000000" />
-
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/spinner"
-            android:layout_gravity="center_horizontal" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="7dp"
-            android:layout_gravity="center_horizontal" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Maritial Status"
-            android:id="@+id/textView6"
-            android:textColor="#000000" />
-
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/myRadioGroup2">
-
-
-
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Married"
-                android:id="@+id/radioButton3"
-                android:layout_weight="1"/>
-
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Single"
-                android:layout_weight="1"
-                android:id="@+id/radioButton4"/>
-
-        </RadioGroup>
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="7dp"
-            android:layout_gravity="center_horizontal" />
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Education:"
-            android:id="@+id/textView7"
-            android:textColor="#000000" />
-
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/spinner2"
-            android:layout_gravity="center_horizontal" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="7dp"
-            android:layout_gravity="center_horizontal" />
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Occupation:"
-            android:id="@+id/textView8"
-            android:textColor="#000000" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text"
-            android:ems="10"
-            android:id="@+id/editText10" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="7dp"
-            android:layout_gravity="center_horizontal" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Religion:"
-            android:id="@+id/textView9"
-            android:textColor="#000000" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text"
-            android:ems="10"
-            android:id="@+id/editText11" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="7dp"
-            android:layout_gravity="center_horizontal" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Income:"
-            android:id="@+id/textView10"
-            android:textColor="#000000" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text"
-            android:ems="10"
-            android:id="@+id/editText12" />
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="7dp"
-            android:layout_gravity="center_horizontal" />
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Add Member"
-            android:id="@+id/add_family"
-            android:layout_gravity="center_horizontal" />
-
-
-        <Space
-        android:layout_width="match_parent"
-        android:layout_height="7dp"
-        android:layout_gravity="center_horizontal" />
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="General Details"
-            android:id="@+id/next"
-
-            android:layout_gravity="center_horizontal" />
-
-
-
-
-    </LinearLayout>
-
-</ScrollView>
+    </ScrollView>
 
 
 </LinearLayout>

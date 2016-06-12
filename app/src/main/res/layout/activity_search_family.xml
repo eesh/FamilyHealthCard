@@ -8,8 +8,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#FFFFFF"
     tools:context=".MainActivity"
-    android:id="@+id/search_family">
+    android:id="@+id/search_family"
+    android:textAlignment="center">
 
 
     <LinearLayout
@@ -103,55 +105,51 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/spinner3"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible" />
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="150dp" />
+        android:layout_height="200dp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Add Member"
         android:id="@+id/button1"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:drawableLeft="@drawable/ic_action_name4"/>
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="3dp" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Delete Memebr"
-        android:id="@+id/button2"
-        android:layout_gravity="center_horizontal" />
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="3dp" />
-
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Update Details"
         android:id="@+id/button3"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:drawableLeft="@drawable/ic_action_update"/>
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="3dp" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Add Consultation"
-        android:id="@+id/button4"
-        android:layout_gravity="center_horizontal" />
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="3dp" />
 
 
 

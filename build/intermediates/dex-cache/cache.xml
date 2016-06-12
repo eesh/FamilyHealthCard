@@ -2,74 +2,95 @@
 <items version="2" >
 
     <item
-        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.github.clans/fab/1.6.2/jars/classes.jar"
+        jumboMode="true"
         revision="23.0.2"
-        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
-        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/classes-38d718eb3435793718eb462ab9a715d4410f1985.jar" />
+        sha1="7e6a161b3796c15fe00755ce47e03067e568ecc4">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.clans-fab-1.6.2_29859e80d0e009f20eef8610f2d22bf2acb6dcb1/classes.dex" />
     </item>
     <item
-        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
         revision="23.0.2"
-        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
-        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/classes-8f34fde890307fc9facb238ac507c365cbe96c9d.jar" />
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_73148d73020de4b05268a1d62b48648aaed782af/classes.dex" />
     </item>
     <item
-        jar="/Users/Eesh/Documents/Projects/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
-        jumboMode="false"
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
         revision="23.0.2"
-        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
-        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0-454e9bf335437a2b14a557415954ecc2bd51f428.jar" />
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_52c17f9258586023da3c124bb05ec89a56e72b94/classes.dex" />
     </item>
     <item
-        jar="/Users/Eesh/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
-        jumboMode="false"
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
         revision="23.0.2"
-        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
-        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/library-1.0.19-27d1e13c3832fd422b88b6550b4d6181b3eac71d.jar" />
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_af9b3545edc7bc2d2449780a41a91f0553b5c311/classes.dex" />
     </item>
     <item
-        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="true"
         revision="23.0.2"
-        sha1="292a9fa091757208efa65e77eef63088247e51f3">
-        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/classes-86bdc8053da8a391a3b88ace926018595812befd.jar" />
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_d62a3e8798b242694affce1a96d1f27532ac715b/classes.dex" />
     </item>
     <item
-        jar="/Users/Eesh/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
-        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0-542eac589302a4006a0d19d3184c8bf54d0411ec.jar" />
-    </item>
-    <item
-        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
-        jumboMode="false"
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
         revision="23.0.2"
-        sha1="6e239441500605809818997dd63b62a947195f8c">
-        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0-f83ea0be5a2b06c45d5b3db288efb8477f753867.jar" />
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_d49abb7490877ed014a4a0115fc4358fcf9254df/classes.dex" />
     </item>
     <item
-        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
         revision="23.0.2"
-        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
-        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/classes-e2b0fa4ce169e8db14cc7861db19901c151418e3.jar" />
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_22986659b970ed8eee7ed2fdac02293e269f6200/classes.dex" />
     </item>
     <item
-        jar="/Users/Eesh/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
-        jumboMode="false"
+        jar="/Users/Eesh/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="true"
         revision="23.0.2"
-        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
-        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0-542eac589302a4006a0d19d3184c8bf54d0411ec.jar" />
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-7.0.1_7dab7c95618755b388c5b0139d37e7d9a57dd659/classes.dex" />
     </item>
     <item
-        jar="/Users/Eesh/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
-        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/pre-dexed/debug/library-1.0.19-27d1e13c3832fd422b88b6550b4d6181b3eac71d.jar" />
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_8a505467fe37dd181b3fbb92ad23acb6490f5f9d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Eesh/Documents/Projects/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_971c653eedc38fcf40f3f844e112f5af154d0b30/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_5b242e39cf4ed94bdab27fb8ccc02d922b896401/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="75f61affae170ac1773d56453c3ad91a54985d75">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_96dcbe8d659fcbbf7a94ceca9bfde4f74ad5dcf1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4305ab04964785bd30c9690e01b1337609009178">
+        <dex dex="/Users/Eesh/Documents/Projects/Android/FamilyHealthCard2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1d79e86a78d9d82e89db302d94b6cca8139c19ef/classes.dex" />
     </item>
 
 </items>

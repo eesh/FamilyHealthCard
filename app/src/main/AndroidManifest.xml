@@ -2,12 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hussain.familyhealthcard" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Family Health Card"
         android:theme="@style/AppTheme" >
-
         <activity
             android:name=".splashS"
             android:label="Family Health Card" >
@@ -21,7 +22,7 @@
             android:name=".loginActivity"
             android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="om.example.hussain.familyhealthcard.loginActivity" />
+                <action android:name="com.example.hussain.familyhealthcard.loginActivity" />
 
                 <category android:name="android.intent.category.default" />
             </intent-filter>
@@ -37,18 +38,18 @@
         </activity>
         <activity
             android:name=".create_family"
-            android:label="New Member" >
+            android:label="Member" >
             <intent-filter>
-                <action android:name="om.example.hussain.familyhealthcard.create_family" />
+                <action android:name="com.example.hussain.familyhealthcard.create_family" />
 
                 <category android:name="android.intent.category.default" />
             </intent-filter>
         </activity>
         <activity
             android:name=".update_details"
-            android:label="Update Family Details" >
+            android:label="Family Details" >
             <intent-filter>
-                <action android:name="om.example.hussain.familyhealthcard.update_details" />
+                <action android:name="com.example.hussain.familyhealthcard.update_details" />
 
                 <category android:name="android.intent.category.default" />
             </intent-filter>
@@ -57,14 +58,37 @@
             android:name=".create_family_2"
             android:label="General Details" >
             <intent-filter>
-                <action android:name="om.example.hussain.familyhealthcard.create_family_2" />
+                <action android:name="com.example.hussain.familyhealthcard.create_family_2" />
 
                 <category android:name="android.intent.category.default" />
             </intent-filter>
         </activity>
         <activity
             android:name=".search_family"
-            android:label="@string/title_activity_search_family" >
+            android:label="Search" >
+        </activity>
+        <activity
+            android:name=".add_consult"
+            android:label="Consultation" >
+        </activity>
+        <activity
+            android:name=".about_us"
+            android:label="About Us">
+        <intent-filter>
+            <action android:name="com.example.hussain.familyhealthcard.easter_egg" />
+
+            <category android:name="android.intent.category.default" />
+        </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".view_consult"
+            android:label="View Consultation" >
+        </activity>
+        <activity
+            android:name=".easter_egg"
+            android:label="Potato Developers" >
+
         </activity>
     </application>
 
